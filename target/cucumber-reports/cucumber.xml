@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="85.067">
+    <testcase classname="Swiggy Application" name="Check the user is displayed restaurants according to location selected" time="28.946">
+        <system-out>
+            <![CDATA[Given The user in in Swiggy Home Page.......................................passed
+When The user enters Kolkata................................................passed
+Then The user clicks on Location from list of locations displayed...........passed
+Then Verify the user is in restaurants page as per location selected........passed
+When The user clicks on any restaurant......................................passed
+Then Verify that the correct restaurant page is opened......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Swiggy Application" name="Check the user is displayed restaurants according to location selected 2" time="26.778">
+        <system-out>
+            <![CDATA[Given The user in in Swiggy Home Page.......................................passed
+When The user enters Pune...................................................passed
+Then The user clicks on Location from list of locations displayed...........passed
+Then Verify the user is in restaurants page as per location selected........passed
+When The user clicks on any restaurant......................................passed
+Then Verify that the correct restaurant page is opened......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Swiggy Application" name="Check the user is displayed restaurants according to location selected 3" time="29.161">
+        <system-out>
+            <![CDATA[Given The user in in Swiggy Home Page.......................................passed
+When The user enters Chandigarh.............................................passed
+Then The user clicks on Location from list of locations displayed...........passed
+Then Verify the user is in restaurants page as per location selected........passed
+When The user clicks on any restaurant......................................passed
+Then Verify that the correct restaurant page is opened......................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
