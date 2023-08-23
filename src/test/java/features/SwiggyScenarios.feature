@@ -1,7 +1,7 @@
 Feature: Swiggy Application
 
 Background:
-Given The user in in Swiggy Home Page
+Given The user is in Swiggy Home Page
 
 Scenario Outline: Check the user is displayed restaurants according to location selected
 
