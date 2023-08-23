@@ -31,8 +31,8 @@ public class SwiggySteps {
 
 	}
 
-	@Given("^The user in in Swiggy Home Page$")
-	public void the_user_in_in_swiggy_home_page() throws Throwable {
+	@Given("^The user is in Swiggy Home Page$")
+	public void the_user_is_in_swiggy_home_page() throws Throwable {
 
 		driver.get(SwiggyPO.URL);
 
